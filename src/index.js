@@ -14,3 +14,7 @@ class MovieCard extends React.Component {
     );
   }
 }
+
+MovieCard.defaultProps = {
+  poster: 'http://i.imgur.com/bJw8ndW.png'
+};
